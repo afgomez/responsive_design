@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Presentation</title>
+
+    <meta charset='utf-8'>
+    <script
+      src='http://html5slides.googlecode.com/svn/trunk/slides.js'></script>
+  </head>
+  
+  <style>
+    /* Your individual styles here, or just use inline styles if that’s
+       what you want. */
+       .slides > article {
+      font-family: Lucida Grande, Arial, Helvetica, sans-serif !important;
+    }
+    pre {
+      font-family:Envy code R !important;
+    }
+    .left {
+      float:left;
+    }
+    .right {
+      float:right;
+    }
+    img.left {
+      margin:30px 0 0;
+    }
+    img.right {
+      margin:30px 0 0;
+    }
+pre.left {
+  width:45%;
+  }
+  pre.right {
+    width:45%;
+    }
+
+    .centered {
+      text-align:center;
+    }
+    h1.centered {
+      font-size:3em;
+      line-height:1;
+    }
+
+  </style>
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular'>
+      
+      <!-- Your slides (<article>s) go here. Delete or comment out the
+           slides below. -->
+
+      <article>
+        <h1>
+          Responsive web design
+        </h1>
+        <p>
+          asturias.rb
+        </p>
+      </article>
+
+      <article>
+        <h1 class="centered">Web única</h1>
+      </article>
+
+      <article class="smaller">
+        <q>
+          Whatever the device you use for getting your information out, it should be the same information.
+        </q>
+        <div class='author'>
+          Tim Berners-Lee 
+        </div>
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Tim_Berners-Lee_April_2009.jpg/200px-Tim_Berners-Lee_April_2009.jpg" class="right" />
+      </article>
+
+      <article>
+        <img class="left" src="http://www.doculinux.com/wp-content/uploads/2010/03/my-computer-icon.png" style="width:300px" />
+        <img class="right" src="http://topnews.net.nz/data/Galaxy-Nexus.jpg" style="width:300px;" />
+        <img class="left" src="http://www.tecnogadgets.com/wp-content/uploads/general-mobile-dst33.jpg" style="width:300px;" />
+        <img class="right" src="http://espana.blog.nimbuzz.com/files/2011/01/ipad.jpg" style="width:300px" />
+      </article>
+
+      <article>
+        <h1 class="centered"><a href="http://elpais.com">http://elpais.com</a></h1>
+      </article>
+      
+      <article>
+        <img class='centered' style='height: 600px' src='images/elpais-big.png'>
+      </article>
+      
+      <article>
+        <img class='centered' style='height: 600px' src='images/elpais-800.png'>
+      </article>
+      
+      <article>
+        <img src="images/elpais-iphone-mal.png" class="centered" style="height:600px" />
+      </article>
+
+      <article>
+        <h1 class="centered" style="margin-top:150px">
+          <strike class="red">web única</strike> <br />
+          Web por dispositivo
+        </h1>
+      </article>
+      
+      
+      <article>
+        <h3>Desktops/laptops</h3>
+        <ul class="build">
+          <li class="red">Distintas resoluciones</li>
+          <li class="green">Diseñamos para la resolución más común del momento (800x600, 1024x768...)</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Móviles/PDAs</h3>
+        <ul class="build">
+          <li class="red">Poca potencia, poca memoria</li>
+          <li class="green">WAP/WML</li>
+          <li class="green">XHTML-MP</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Smartphones modernos/tablets</h3>
+        <ul class="build">
+          <li>Tienen navegadores completos</li>
+          <li class="red">Menos resolución de pantalla que un PC/laptop</li>
+          <li class="green">Diseñamos para esa resolución</li>
+          <li class="red">Distinto método de entrada (dedos vs ratón)</li>
+          <li class="green">Diseñamos de acuerdo a esto (botones grandes, etc)</li>
+        </ul>
+      </article>
+      
+      <article>
+        <img src="images/elpais-pda.png" class="left" style="height:550px" />
+        <img src="images/elpais-iphone.png" class="right" style="height:550px" />
+      </article>
+
+      <article>
+      <h1 class="centered">Problemas</h1>
+      </article>
+
+      <article>
+        <h3>Problemas</h3>
+        <ul class="build">
+          <li>Coste en tiempo</li>
+          <li>Elegir en que dispositivos te centras</li>
+          <li>
+            Cada vez hay más dispositivos
+            <img src="images/android.jpg" style="height:380px;margin-top:20px" />
+          </li>
+        </ul>
+      </article>
+      
+      
+      <article>
+        <h1 class="centered" style="margin-top:120px">
+          <strike class="red">web por dispositivo</strike> <br/>
+          Web única
+          <small style="display:block; font-size:0.3em; letter-spacing:normal; line-height:1">(...Que se adapte al dispositivo)</small>
+        </h1>
+      </article>
+      
+      
+      
+      <article>
+        <h1 class="centered">Responsive web design</h1>
+      </article>
+
+      <article>
+        <h1 class="centered">Diseño que "responde"</h1>
+      </article>
+      
+      <article>
+        <h1 class="centered" style="font-size:1.7em"><a href="http://www.barackobama.com/">http://www.barackobama.com/</a></h1>
+      </article>
+
+      
+      <article>
+        <img class='centered' style='height: 600px' src='images/obama-big.png' />
+      </article>
+
+      <article>
+        <img class='left' style='height: 570px' src='images/obama-800.png' />
+        <img class='right' style='height: 570px' src='images/obama-mobile.png' />
+      </article>
+
+      <article>
+        <h1 class="centered">¿Cómo?</h1>
+      </article>
+      
+      <article>
+        <h3>¿Cómo?</h3>
+        <p>1. Con layouts fluídos</p>
+        <div class="build">
+          <pre class="left">
+#container {
+  width:800px;
+}
+#content {
+  width:600px;
+}
+#aside {
+  width:200px;
+}</pre>
+          <pre class="right">
+#container {
+  max-width:800px;
+}
+#content {
+  width:75%;
+}
+#aside {
+  width:25%;
+}</pre>
+        </div>
+      </article>
+
+      <article>
+        <h3>¿Cómo?</h3>
+        <p>2. Con imágenes fluídas</p>
+        <div class="build">
+          <pre>
+img {
+  max-width:100%;
+}</pre>
+        </div>
+      </article>
+
+      <article class="smaller">
+        <h3>¿Cómo?</h3>
+        <p>3. Con media queries</p>
+        <div class="build">
+          <pre>
+&lt;link href=&quot;base.css&quot; type=&quot;text/css&quot; media=&quot;all&quot; /&gt;
+&lt;link href=&quot;print.css&quot; type=&quot;text/css&quot; media=&quot;print&quot; /&gt;
+&lt;link href=&quot;mobile.css&quot; type=&quot;text/css&quot; media=&quot;screen and (max-width:480px)&quot; /&gt;</pre>
+          <pre>
+@media screen and (min-width:1280px) {
+  #container {
+    width:max-width:1280px;
+  }
+}</pre>
+        </div>
+      </article>
+      
+      <article>
+        <img src="images/link.jpg" style="max-width:100%;margin-top:70px" />
+      </article>
+      
+      <article>
+        <h2>
+          Ruegos y preguntas
+        </h2>
+      </article>
+      <article>
+        <h2>
+          Cañas!
+        </h2>
+      </article>
+
+    </section>
+
+  </body>
+</html>
